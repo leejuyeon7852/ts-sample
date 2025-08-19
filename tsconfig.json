@@ -2,8 +2,8 @@
   "compilerOptions": {
     "outDir": "./dist",
     "module": "commonjs",
-    "target": "ES6",
-    "baseUrl": ".",
+    "target": "ES6", //js 버전을 뭐로 할지.. 옛날거로 하면 옛날 버전에 맞춰서 js 생성됨
+    "baseUrl": "src", //import 시작하는 상대 경로 바꿀 수 있음
     "allowJs": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
