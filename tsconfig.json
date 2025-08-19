@@ -4,17 +4,17 @@
     "module": "commonjs",
     "target": "ES6", //js 버전을 뭐로 할지.. 옛날거로 하면 옛날 버전에 맞춰서 js 생성됨
     "baseUrl": "src", //import 시작하는 상대 경로 바꿀 수 있음
-    "allowJs": true,
+    "allowJs": true, //false면 js 컴파일 안함
     "strict": true,
     "forceConsistentCasingInFileNames": true,
   },
   "include": [
-    "**/*"
+    "**/*" //ts와 같은파일 전부 컴파일 하겠다는 의미
   ],
-  "exclude": [
+  "exclude": [ //제외할 파일들
     "node_modules",
     "dist",
-    "exclude.ts"
+    // "exclude.ts" //test하려고 쓴 거
   ]
 
 }
