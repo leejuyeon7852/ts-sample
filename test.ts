@@ -1,3 +1,9 @@
-let tripleSeven:number = 777;
-let arr1:number[] = [10,20,30];
-let arr2:Array<number> = [10,20,30];
+function testOptionalParam(base: string, optionalParam?: string) {
+    console.log('base: ', base);
+    console.log('optionalParam: ', optionalParam);
+}
+
+testOptionalParam("base");
+testOptionalParam("base", "optional");
+
+    
